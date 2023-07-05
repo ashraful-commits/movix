@@ -1,5 +1,3 @@
-simport React from "react";
-
 import "./Notfound.scss";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 
