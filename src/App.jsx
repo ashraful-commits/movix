@@ -1,13 +1,11 @@
 import { useEffect } from "react";
 import "./App.scss";
 import { fetchDataFromApi } from "./utils/api";
-import { useSelector, useDispatch } from "react-redux";
-import { getApiConfiguration, getGenres } from "./store/homeSlice";
-
+import { useDispatch } from "react-redux";
+import { getApiConfiguration, getGenres } from "./store/HomeSlice";
 import router from "./router/PageRouter";
 import { RouterProvider } from "react-router-dom";
 function App() {
-  const { url } = useSelector((state) => state.Home);
   const dispatch = useDispatch();
 
   //api calling with useffect
