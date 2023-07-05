@@ -1,4 +1,3 @@
-import { fetchDataFromApi } from "../../utils/api";
 import HeroBanner from "./HeroBanner/HeroBanner";
 import "./Home.scss";
 import Popular from "./Popular/Popular";

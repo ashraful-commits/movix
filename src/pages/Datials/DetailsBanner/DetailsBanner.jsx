@@ -4,15 +4,15 @@ import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
 import "./DetailsBanner.scss";
-
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import useFetch from "../../../hooks/useFetch";
-import Genres from "../../../components/genres/Genres";
-import CircleRating from "../../../components/circleRating/CircleRating";
 import PosterFallback from "../../../assets/no-poster.png";
-import Img from "../../../components/lazyLoadImage/Img.jsx";
+
 import { PlayIcon } from "./Playbtn";
 import VideoPopup from "../../../components/VideoPopUp/VideoPopUp";
+import useFetch from "../../../hooks/useFetch";
+import ContentWrapper from "../../../components/ContentWrapper/ContentWrapper";
+import Img from "../../../components/LazyLoadImage/Img";
+import CircleRating from "../../../components/CircleRating/CircleRating";
+import Genres from "../../../components/Genres/Genres";
 const DetailsBanner = ({ video, crew }) => {
   const { url } = useSelector((state) => state.Home);
   const { mediaType, id } = useParams();
