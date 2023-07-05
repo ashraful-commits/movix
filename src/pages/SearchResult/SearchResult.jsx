@@ -9,7 +9,7 @@ import { fetchDataFromApi } from "../../utils/api";
 import noResults from "../../assets/no-results.png";
 import Spinner from "../../components/Spinner/Spinner";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
-import MovieCard from "../../Components/MovieCard/MovieCard";
+import MovieCard from "../../components/MovieCard/MovieCard";
 
 const SearchResult = () => {
   const [data, setData] = useState(null);
