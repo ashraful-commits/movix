@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <Explore />,
       },
       {
-        path: "* ",
+        path: "*",
         element: <Notfound />,
       },
     ],
