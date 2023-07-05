@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
-import PageLayout from "../Components/Layout/PageLayout";
+
 import Datials from "../pages/Datials/Datials";
 import SearchResult from "../pages/SearchResult/SearchResult";
 import Explore from "../pages/Explore/Explore";
 import Notfound from "../pages/404/Notfound";
+import PageLayout from "../components/Layout/PageLayout";
 
 const router = createBrowserRouter([
   {
