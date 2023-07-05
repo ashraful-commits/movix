@@ -7,9 +7,9 @@ import "./SearchResult.scss";
 import { fetchDataFromApi } from "../../utils/api";
 
 import noResults from "../../assets/no-results.png";
-import Spinner from "../../components/spinner/Spinner";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-import MovieCard from "../../components/movieCard/MovieCard";
+import Spinner from "../../Components/Spinner/Spinner";
+import ContentWrapper from "../../Components/ContentWrapper/ContentWrapper";
+import MovieCard from "../../Components/MovieCard/MovieCard";
 
 const SearchResult = () => {
   const [data, setData] = useState(null);
